@@ -1,8 +1,8 @@
 ﻿<?php
 $host = "localhost";
-$user = "root";
-$password = "mmtmmt";
-$dbname = "appoggio";
+$user = "INSERIRE USER";
+$password = "INSERIRE PASSWORD";
+$dbname = "INSERIRE NOME DB";
 
 $conn = new mysqli($host, $user, $password, $dbname);
 if ($conn->connect_error) {
