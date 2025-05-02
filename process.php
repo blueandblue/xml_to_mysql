@@ -126,7 +126,7 @@ if (isset($_POST["file"]) && isset($_POST["tables"])) {
 
 <script>
 function viewTable(tableName) {
-    window.open('pages/import_xml/view_table.php?table=' + tableName, '_blank');
+    window.open('view_table.php?table=' + tableName, '_blank');
 }
 </script>
 
